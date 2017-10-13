@@ -29,8 +29,8 @@
        var lis=$('li');
        var box=$("#box");
        var n=0;
-       $("body").on("touchstart",function(ev){
-           ev.preventDefault()
+       $("body").addEventListener("touchstart",function(ev){
+           ev.preventDefault();
        })
 
        $("#box").on("swipeLeft",function(){
