@@ -29,14 +29,18 @@
        var lis=$('li');
        var box=$("#box");
        var n=0;
-       $("#box").on("swipeLeft",function(ev){
+       $("body").on("touchstart",function(ev){
            ev.preventDefault()
+       })
+
+       $("#box").on("swipeLeft",function(){
+
            n++;
            if(n>=lis.length ){
                n=lis.length-1}
                $(this).css("transform","translate3d(-"+n*100+"%,0,0)")
        })
-           $("#box").on("swipeRight",function(ev) {
+           $("#box").on("swipeRight",function() {
                n--;
                if (n < 0) {
                    n = 0; }
