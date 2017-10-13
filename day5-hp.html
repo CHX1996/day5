@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+
+    <script src="zepto.js"></script>
+    <script src="touch.js"></script>
+    <style>
+        *{margin: 0;padding: 0}
+        html,body{width: 100%;height: 100%;overflow: hidden}
+        ul{display: flex;width: 100%; height: 100%;}
+        li{ list-style: none;width: 100%;flex-shrink: 0;border: 1px solid red}
+        button{margin: 50% 50%;width: 80px;height: 30px ;}
+    </style>
+</head>
+<body>
+<ul id="box">
+    <li> 22</li>
+    <li>ss</li>
+    <li>dd</li>
+    <li><button> 体验 </button></li>
+</ul>
+
+
+<script>
+   $(function(){
+       var lis=$('li');
+       var box=$("#box");
+       var n=0;
+       $("#box").on("swipeLeft",function(ev){
+           ev.preventDefault()
+           n++;
+           if(n>=lis.length ){
+               n=lis.length-1}
+               $(this).css("transform","translate3d(-"+n*100+"%,0,0)")
+       })
+           $("#box").on("swipeRight",function(ev) {
+               n--;
+               if (n < 0) {
+                   n = 0; }
+                   $(this).css("transform", "translate3d(-"+n*100+"%,0,0)")
+
+           })
+                $("button").on("tap",function(){
+                    location.href="http://baidu.com";
+                })
+
+
+   })
+
+
+
+</script>
+</body>
+</html>
