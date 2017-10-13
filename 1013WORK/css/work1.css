@@ -1,0 +1,413 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url("../font/iconfont.eot");
+  src: url("../font/iconfont.eot?#iefix") format("embedded-opentype"), url("../font/iconfont.woff") format("woff"), url("../font/iconfont.ttf") format("truetype"), url("../font/iconfont.svg#iconfont") format("svg"); }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, html body, html body section {
+  width: 100%;
+  height: 100%; }
+  html body, html body section body {
+    position: relative;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    background: #f4f4f4; }
+    html body header {
+      height: 1.8rem;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      z-index: 9999;
+      background: #148ad2; }
+      html body header i {
+        font-style: normal;
+        width: 1rem;
+        height: 1rem;
+        float: left;
+        color: #fdfbfc;
+        font-size: 1rem;
+        margin-left: 0.76rem;
+        margin-top: 0.4rem; }
+      html body header h5 {
+        font-size: 0.72rem;
+        color: #fdfbfc;
+        position: absolute;
+        left: 40%;
+        top: 20%; }
+      html body header p {
+        font-size: 0.6rem;
+        color: #fdfbfc;
+        float: right;
+        margin-right: 1.3rem;
+        margin-top: 0.56rem; }
+    html body nav {
+      width: 100%;
+      height: 1.6rem;
+      background: #ffffff;
+      position: fixed;
+      top: 1.8rem;
+      z-index: 9999;
+      display: flex;
+      flex: 1;
+      border-bottom: 1px solid #e6e6e6; }
+      html body nav div:nth-of-type(1) {
+        font-size: 0.6rem;
+        color: #000000;
+        width: 100%;
+        text-align: center;
+        line-height: 1.8rem; }
+      html body nav div:nth-of-type(2) {
+        font-size: 0.6rem;
+        color: #000000;
+        width: 100%;
+        text-align: center;
+        line-height: 1.8rem; }
+    html body section {
+      padding-top: 3.4rem; }
+      html body section ul {
+        width: 14.04rem;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto; }
+        html body section ul li:nth-of-type(1) {
+          height: 4.42rem;
+          width: 100%;
+          border-bottom: 1px solid #e6e6e6; }
+          html body section ul li:nth-of-type(1) img {
+            width: 4.54rem;
+            height: 3.64rem;
+            margin-top: 0.44rem;
+            float: left; }
+          html body section ul li:nth-of-type(1) h6 {
+            font-size: 0.8rem;
+            color: #323232;
+            float: left;
+            margin-top: 0.84rem;
+            margin-left: 0.36rem;
+            width: 9.12rem;
+            height: 1.74rem; }
+          html body section ul li:nth-of-type(1) p:nth-of-type(1) {
+            float: left;
+            width: 4.64rem;
+            height: 0.4rem;
+            margin-top: 0.28rem;
+            margin-left: 0.36rem; }
+            html body section ul li:nth-of-type(1) p:nth-of-type(1) i {
+              width: 0.4rem;
+              height: 0.4rem;
+              font-size: 0.64rem; }
+            html body section ul li:nth-of-type(1) p:nth-of-type(1) span {
+              font-size: 0.2rem;
+              color: #969696; }
+          html body section ul li:nth-of-type(1) p:nth-of-type(2) {
+            float: left;
+            margin-top: 0.28rem;
+            width: 4.48rem;
+            height: 0.44rem; }
+            html body section ul li:nth-of-type(1) p:nth-of-type(2) i:nth-of-type(1) {
+              width: 0.56rem;
+              height: 0.24rem;
+              font-size: 0.64rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(1) p:nth-of-type(2) span:nth-of-type(1) {
+              font-size: 0.28rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(1) p:nth-of-type(2) i:nth-of-type(2) {
+              width: 0.48rem;
+              height: 0.36rem;
+              font-size: 0.64rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(1) p:nth-of-type(2) span:nth-of-type(2) {
+              font-size: 0.28rem;
+              color: #969696; }
+        html body section ul li:nth-of-type(2) {
+          width: 100%;
+          height: 6.9rem;
+          border-bottom: 1px solid #e6e6e6; }
+          html body section ul li:nth-of-type(2) h6 {
+            font-size: 0.76rem;
+            color: #323232;
+            float: left;
+            margin-top: 0.4rem;
+            margin-left: 0rem;
+            width: 10.7rem;
+            height: 0.6rem; }
+          html body section ul li:nth-of-type(2) img:nth-of-type(1) {
+            width: 4.42rem;
+            height: 3.64rem;
+            margin-top: 0.6rem;
+            float: left; }
+          html body section ul li:nth-of-type(2) img:nth-of-type(2) {
+            width: 4.42rem;
+            height: 3.64rem;
+            margin-top: 0.6rem;
+            float: left;
+            margin-left: 0.36rem; }
+          html body section ul li:nth-of-type(2) img:nth-of-type(3) {
+            width: 4.42rem;
+            height: 3.64rem;
+            margin-top: 0.6rem;
+            float: left;
+            margin-left: 0.36rem; }
+          html body section ul li:nth-of-type(2) p:nth-of-type(1) {
+            width: 9.4rem;
+            height: 0.42rem;
+            float: left;
+            margin-top: 0.44rem; }
+            html body section ul li:nth-of-type(2) p:nth-of-type(1) span {
+              font-size: 0.48rem;
+              color: #969696;
+              float: left; }
+              html body section ul li:nth-of-type(2) p:nth-of-type(1) span i {
+                width: 0.4rem;
+                height: 0.4rem;
+                font-size: 0.64rem;
+                color: #969696; }
+          html body section ul li:nth-of-type(2) p:nth-of-type(2) {
+            width: 4.48rem;
+            height: 0.48rem;
+            float: left; }
+            html body section ul li:nth-of-type(2) p:nth-of-type(2) i:nth-of-type(1) {
+              width: 0.56rem;
+              height: 0.24rem;
+              font-size: 0.64rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(2) p:nth-of-type(2) span:nth-of-type(1) {
+              font-size: 0.28rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(2) p:nth-of-type(2) i:nth-of-type(2) {
+              width: 0.48rem;
+              height: 0.36rem;
+              font-size: 0.64rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(2) p:nth-of-type(2) span:nth-of-type(2) {
+              font-size: 0.28rem;
+              color: #969696; }
+        html body section ul li:nth-of-type(3) {
+          height: 4.42rem;
+          width: 100%;
+          border-bottom: 1px solid #e6e6e6; }
+          html body section ul li:nth-of-type(3) img {
+            width: 4.54rem;
+            height: 3.64rem;
+            margin-top: 0.44rem;
+            float: left; }
+          html body section ul li:nth-of-type(3) h6 {
+            font-size: 0.8rem;
+            color: #323232;
+            float: left;
+            margin-top: 0.84rem;
+            margin-left: 0.36rem;
+            width: 9.12rem;
+            height: 1.74rem; }
+          html body section ul li:nth-of-type(3) p:nth-of-type(1) {
+            float: left;
+            width: 4.64rem;
+            height: 0.4rem;
+            margin-top: 0.28rem;
+            margin-left: 0.36rem; }
+            html body section ul li:nth-of-type(3) p:nth-of-type(1) i {
+              width: 0.4rem;
+              height: 0.4rem;
+              font-size: 0.64rem; }
+            html body section ul li:nth-of-type(3) p:nth-of-type(1) span {
+              font-size: 0.2rem;
+              color: #969696; }
+          html body section ul li:nth-of-type(3) p:nth-of-type(2) {
+            float: left;
+            margin-top: 0.28rem;
+            width: 4.48rem;
+            height: 0.44rem; }
+            html body section ul li:nth-of-type(3) p:nth-of-type(2) i:nth-of-type(1) {
+              width: 0.56rem;
+              height: 0.24rem;
+              font-size: 0.64rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(3) p:nth-of-type(2) span:nth-of-type(1) {
+              font-size: 0.28rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(3) p:nth-of-type(2) i:nth-of-type(2) {
+              width: 0.48rem;
+              height: 0.36rem;
+              font-size: 0.64rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(3) p:nth-of-type(2) span:nth-of-type(2) {
+              font-size: 0.28rem;
+              color: #969696; }
+        html body section ul li:nth-of-type(3) {
+          height: 4.42rem;
+          width: 100%;
+          border-bottom: 1px solid #e6e6e6; }
+          html body section ul li:nth-of-type(3) img {
+            width: 4.54rem;
+            height: 3.64rem;
+            margin-top: 0.44rem;
+            float: left; }
+          html body section ul li:nth-of-type(3) h6 {
+            font-size: 0.8rem;
+            color: #323232;
+            float: left;
+            margin-top: 0.84rem;
+            margin-left: 0.36rem;
+            width: 9.12rem;
+            height: 1.74rem; }
+          html body section ul li:nth-of-type(3) p:nth-of-type(1) {
+            float: left;
+            width: 4.64rem;
+            height: 0.4rem;
+            margin-top: 0.28rem;
+            margin-left: 0.36rem; }
+            html body section ul li:nth-of-type(3) p:nth-of-type(1) i {
+              width: 0.4rem;
+              height: 0.4rem;
+              font-size: 0.64rem; }
+            html body section ul li:nth-of-type(3) p:nth-of-type(1) span {
+              font-size: 0.2rem;
+              color: #969696; }
+          html body section ul li:nth-of-type(3) p:nth-of-type(2) {
+            float: left;
+            margin-top: 0.28rem;
+            width: 4.48rem;
+            height: 0.44rem; }
+            html body section ul li:nth-of-type(3) p:nth-of-type(2) i:nth-of-type(1) {
+              width: 0.56rem;
+              height: 0.24rem;
+              font-size: 0.64rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(3) p:nth-of-type(2) span:nth-of-type(1) {
+              font-size: 0.28rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(3) p:nth-of-type(2) i:nth-of-type(2) {
+              width: 0.48rem;
+              height: 0.36rem;
+              font-size: 0.64rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(3) p:nth-of-type(2) span:nth-of-type(2) {
+              font-size: 0.28rem;
+              color: #969696; }
+        html body section ul li:nth-of-type(4) {
+          height: 4.42rem;
+          width: 100%;
+          border-bottom: 1px solid #e6e6e6; }
+          html body section ul li:nth-of-type(4) img {
+            width: 4.54rem;
+            height: 3.64rem;
+            margin-top: 0.44rem;
+            float: left; }
+          html body section ul li:nth-of-type(4) h6 {
+            font-size: 0.8rem;
+            color: #323232;
+            float: left;
+            margin-top: 0.84rem;
+            margin-left: 0.36rem;
+            width: 9.12rem;
+            height: 1.74rem; }
+          html body section ul li:nth-of-type(4) p:nth-of-type(1) {
+            float: left;
+            width: 4.84rem;
+            height: 0.4rem;
+            margin-top: 0.28rem;
+            margin-left: 0.36rem; }
+            html body section ul li:nth-of-type(4) p:nth-of-type(1) i {
+              width: 0.4rem;
+              height: 0.4rem;
+              font-size: 0.64rem; }
+            html body section ul li:nth-of-type(4) p:nth-of-type(1) span {
+              font-size: 0.2rem;
+              color: #969696; }
+          html body section ul li:nth-of-type(4) p:nth-of-type(2) {
+            float: left;
+            margin-top: 0.28rem;
+            width: 4.28rem;
+            height: 0.44rem; }
+            html body section ul li:nth-of-type(4) p:nth-of-type(2) i:nth-of-type(1) {
+              width: 0.56rem;
+              height: 0.24rem;
+              font-size: 0.64rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(4) p:nth-of-type(2) span:nth-of-type(1) {
+              font-size: 0.28rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(4) p:nth-of-type(2) i:nth-of-type(2) {
+              width: 0.48rem;
+              height: 0.36rem;
+              font-size: 0.64rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(4) p:nth-of-type(2) span:nth-of-type(2) {
+              font-size: 0.28rem;
+              color: #969696; }
+        html body section ul li:nth-of-type(5) {
+          width: 100%;
+          height: 6.9rem;
+          border-bottom: 1px solid #e6e6e6; }
+          html body section ul li:nth-of-type(5) h6 {
+            font-size: 0.76rem;
+            color: #323232;
+            float: left;
+            margin-top: 0.4rem;
+            margin-left: 0rem;
+            width: 11.1rem;
+            height: 0.6rem; }
+          html body section ul li:nth-of-type(5) img:nth-of-type(1) {
+            width: 4.42rem;
+            height: 3.64rem;
+            margin-top: 0.6rem;
+            float: left; }
+          html body section ul li:nth-of-type(5) img:nth-of-type(2) {
+            width: 4.42rem;
+            height: 3.64rem;
+            margin-top: 0.6rem;
+            float: left;
+            margin-left: 0.36rem; }
+          html body section ul li:nth-of-type(5) img:nth-of-type(3) {
+            width: 4.42rem;
+            height: 3.64rem;
+            margin-top: 0.6rem;
+            float: left;
+            margin-left: 0.36rem; }
+          html body section ul li:nth-of-type(5) p:nth-of-type(1) {
+            width: 9.4rem;
+            height: 0.42rem;
+            float: left;
+            margin-top: 0.44rem; }
+            html body section ul li:nth-of-type(5) p:nth-of-type(1) span {
+              font-size: 0.48rem;
+              color: #969696;
+              float: left; }
+              html body section ul li:nth-of-type(5) p:nth-of-type(1) span i {
+                width: 0.4rem;
+                height: 0.4rem;
+                font-size: 0.64rem;
+                color: #969696; }
+          html body section ul li:nth-of-type(5) p:nth-of-type(2) {
+            width: 4.48rem;
+            height: 0.48rem;
+            float: left; }
+            html body section ul li:nth-of-type(5) p:nth-of-type(2) i:nth-of-type(1) {
+              width: 0.56rem;
+              height: 0.24rem;
+              font-size: 0.64rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(5) p:nth-of-type(2) span:nth-of-type(1) {
+              font-size: 0.28rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(5) p:nth-of-type(2) i:nth-of-type(2) {
+              width: 0.48rem;
+              height: 0.36rem;
+              font-size: 0.64rem;
+              color: #969696; }
+            html body section ul li:nth-of-type(5) p:nth-of-type(2) span:nth-of-type(2) {
+              font-size: 0.28rem;
+              color: #969696; }
+
+/*# sourceMappingURL=work1.css.map */
