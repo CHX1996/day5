@@ -70,7 +70,7 @@ body{ @extend html;
         }
         p{ font-size: 22/$sc+rem;color: #138dd0;position: absolute}
         p:nth-of-type(1){left: 310/$sc+rem;top: 70/$sc+rem; }
-        p:nth-of-type(2){left: 710/$sc+rem;top: 70/$sc+rem; }
+        p:nth-of-type(2){left: 668/$sc+rem;top: 70/$sc+rem; }
       }
 
       li:nth-of-type(4){height: 108/$sc+rem;width: 100%;background: #ffffff;margin-top: 5/$sc+rem;
@@ -86,9 +86,7 @@ body{ @extend html;
           -webkit-appearance: none;
           border-radius: 10px;
         }
-        input[type=range]::-webkit-slider-thumb {
-          -webkit-appearance: none;
-        }
+
         input[type=range]::-webkit-slider-thumb {
           -webkit-appearance: none;
           height: 25/$sc+rem;

@@ -9,7 +9,7 @@
 <body>
 
 <header>
-    <i class="iconfont">&#xe600; </i>
+    <i id="hi" class="iconfont">&#xe600; </i>
     <h5> 设置</h5>
 
 </header>
@@ -18,16 +18,16 @@
     <ul>
         <li>
             <span> 仅WIFI下下载图片</span>
-            <div>
-                <p>
+            <div id="bigbox">
+                <p id="smallbox">
                 </p>
             </div>
         </li>
 
         <li>
             <span> 仅WIFI下自动播放视频</span>
-            <div>
-                <p>
+            <div id="bigbox2">
+                <p id="smallbox2" >
                 </p>
             </div>
         </li>
@@ -42,8 +42,8 @@
         <li>
             <span> 屏幕亮度</span>
             <input type="range">
-            <div>
-                <p>
+            <div id="bigbox3">
+                <p id="smallbox3">
                 </p>
             </div>
         </li>
@@ -76,6 +76,52 @@
 
 <script>
     document.documentElement.style.fontSize=innerWidth/15+"px"
+    document.addEventListener("touchstart", function (ev) {
+        ev.preventDefault();
+    })
+    document.addEventListener("touchmove", function (ev) {
+        ev.preventDefault();
+    })
+    var hi=document.getElementById("hi")
+    hi.addEventListener("touchstart",function(ev) {
+        location.href="work1.html"
+    })
+    var big=document.getElementById("bigbox");
+    var small=document.getElementById("smallbox")
+    small.addEventListener("touchmove",function(ev){
+       big.style.background="blue"
+        small.style.left="20px "
+    })
+    big.addEventListener("touchstart",function(ev){
+
+        small.style.left="0 "
+        big.style.background=" #148ad2"
+    })
+
+    var big2=document.getElementById("bigbox2");
+    var small2=document.getElementById("smallbox2")
+    small2.addEventListener("touchmove",function(ev){
+        big2.style.background="blue"
+        small2.style.left="20px "
+    })
+    big2.addEventListener("touchstart",function(ev){
+
+        small2.style.left="0 "
+        big2.style.background=" #148ad2"
+    })
+
+    var big3=document.getElementById("bigbox3");
+    var small3=document.getElementById("smallbox3")
+    small3.addEventListener("touchmove",function(ev){
+        big3.style.background="blue"
+        small3.style.left="20px "
+    })
+    big3.addEventListener("touchstart",function(ev){
+
+        small3.style.left="0 "
+        big3.style.background=" #148ad2"
+    })
 </script>
+
 </body>
 </html>

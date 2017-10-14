@@ -142,7 +142,7 @@ html, html body, html body section {
             left: 6.2rem;
             top: 1.4rem; }
           html body section ul li:nth-of-type(3) p:nth-of-type(2) {
-            left: 14.2rem;
+            left: 13.36rem;
             top: 1.4rem; }
         html body section ul li:nth-of-type(4) {
           height: 2.16rem;
@@ -180,8 +180,6 @@ html, html body, html body section {
           html body section ul li:nth-of-type(4) input[type=range] {
             -webkit-appearance: none;
             border-radius: 10px; }
-          html body section ul li:nth-of-type(4) input[type=range]::-webkit-slider-thumb {
-            -webkit-appearance: none; }
           html body section ul li:nth-of-type(4) input[type=range]::-webkit-slider-thumb {
             -webkit-appearance: none;
             height: 0.5rem;
